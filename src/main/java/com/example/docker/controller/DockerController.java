@@ -11,6 +11,6 @@ public class DockerController {
 
     @RequestMapping("/get")
     public String getStr(){
-        return "Hello docker!!!"+new Date();
+        return "Hi dafei "+new Date();
     }
 }
