@@ -2,7 +2,7 @@ FROM java:8
 
 VOLUME /tmp
 
-COPY docker-0.0.1-SNAPSHOT.jar app.jar
+COPY docker-0.0.1.jar app.jar
 
 RUN bash -c "touch /app.jar"
 
